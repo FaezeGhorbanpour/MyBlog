@@ -1,4 +1,6 @@
 var token = sessionStorage.getItem("token");
+var site_address = "http://127.0.0.1:8080";
+var static_address = "../../static";
 
 $(".goTo").click(function (event) {
     $(".menu>ul").attr("display", "block")
@@ -32,7 +34,7 @@ $(document).ready(function() {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "http://ce419.herokuapp.com/blog/post",
+            "url": site_address + "/blog/post",
             "method": "POST",
             "headers": {
                 "x-Token": token
@@ -62,7 +64,7 @@ function loadPost() {
      var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "http://ce419.herokuapp.com/blog/posts?count=5&offset=0",
+        "url": site_address+"/blog/posts?count=5&offset=0",
         "method": "GET",
         "headers": {
             "x-token": token
@@ -71,13 +73,15 @@ function loadPost() {
     };
 
     $.ajax(settings).done(function (response) {
-        $.each(response.posts, function(index, element) {
-            var postString = "<div class=\"blog\" id=\"" +  element.id + "\"> \n" +
-                "<img class=\"pic\" src=\"../../static/img/"+ ((element.id % 7)+1 ) +".png\"/>\n"+
+
+        $.each(response, function(index) {
+            element = response[index].fields;
+            var postString = "<div class=\"blog\" id=\"" +  index + "\"> \n" +
+                "<img class=\"pic\" src=\""+static_address+"/img/"+ ((index % 7)+1 ) +".png\"/>\n"+
                 "<h1>"+element.title +"</h1>\n" +
-                "<h6>" + convertDate(element.datetime) +"</h6>\n" +
+                "<h6>" +  (element.date) +"</h6>\n" +
                 "<p class=\"summary\">"+element.summery +"</p>\n" +
-                "<a href=\"blog_page.html?id="+element.id+"\">Read More</a>\n"+
+                "<a href=\"blog_page.html?id="+index+"\">Read More</a>\n"+
                 "</div>";
             $('.columns').append(postString)
         });
@@ -85,16 +89,7 @@ function loadPost() {
 }
 
 function loadPosts(count,offset) {
-loadPost();
-
-
-
-
-
-
-
-
-
+    loadPost();
     var win = $(window);
     var num = 0;
     var off = offset+5;
@@ -104,7 +99,7 @@ loadPost();
             var settings = {
                 "async": true,
                 "crossDomain": true,
-                "url": "http://ce419.herokuapp.com/blog/posts?count=5&offset=" + off,
+                "url": site_address + "/blog/posts?count=5&offset=" + off,
                 "method": "GET",
                 "headers": {
                     "x-token": token
@@ -113,13 +108,14 @@ loadPost();
             };
 
             $.ajax(settings).done(function (response) {
-                $.each(response.posts, function (index, element) {
-                    var postString = "<div class=\"blog\" id=\"" + element.id + "\"> \n" +
-                        "<img class=\"pic\" src=\"../../static/img/" + ((element.id % 7) + 1 ) + ".png\"/>\n" +
+                $.each(response, function(index) {
+                    element = response[index].fields;
+                    var postString = "<div class=\"blog\" id=\"" + index + "\"> \n" +
+                        "<img class=\"pic\" src=\""+static_address+"/img/" + ((index % 7) + 1 ) + ".png\"/>\n" +
                         "<h1>" + element.title + "</h1>\n" +
-                        "<h6>" + convertDate(element.datetime) + "</h6>\n" +
+                        "<h6>" +  (element.date) + "</h6>\n" +
                         "<p class=\"summary\">" + element.summery + "</p>\n" +
-                        "<a href=\"blog_page.html?id=" + element.id + "\">Read More</a>\n" +
+                        "<a href=\"blog_page.html?id=" + index + "\">Read More</a>\n" +
                         "</div>";
                     $('.columns').append(postString)
                 });

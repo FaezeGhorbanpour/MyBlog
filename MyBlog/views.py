@@ -1,13 +1,14 @@
+from django.http import HttpResponse
 from django.shortcuts import render,get_object_or_404, redirect
 from django.utils import timezone
 from .models import Post
 from .forms import PostForm
+from django.core import serializers
 
 # Create your views here.
 
-def post_list(request):
-    posts = Post.objects.all()
-    return render(request, 'blog/post_list.html', {'posts':posts})
+def main_page(request):
+    return render(request, 'blog/main_page.html')
 
 
 def post_new(request):
@@ -41,3 +42,27 @@ def post_edit(request,pk):
     else:
         edit_post = PostForm(instance=post)
     return render(request,'blog/post_edit.html',{'post':post})
+
+def post_list(request):
+    offset = request.GET.get('offset')
+    count = request.GET.get('count')
+    if  offset and count:
+        posts = Post.objects.all()[int(offset):int(offset)+int(count)]
+    elif count:
+        posts = Post.objects.all()[:int(count)]
+    elif offset:
+        posts = Post.objects.all()[int(offset):int(offset) + 5]
+    else:
+        posts = Post.objects.all()
+
+    posts = serializers.serialize("json", posts)
+    print(posts)
+    return HttpResponse(posts, content_type='application/json')
+
+
+
+def register(request):
+    pass
+
+def login(request):
+    pass

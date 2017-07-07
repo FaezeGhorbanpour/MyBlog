@@ -19,9 +19,12 @@ from MyBlog import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.post_list, name='post_list'),
-    url(r'^post/(?P<pk>\d+)/$',views.post_detail,name='post_detail'),
-    url(r'^post/new/$',views.post_new,name='post_new'),
-    url(r'^post/(?P<pk>\d+)/$',views.post_edit,name='post_edit')
+    url(r'^$', views.main_page, name='main_page'),
+    url(r'^auth/register/$', views.register, name='register'),
+    url(r'^auth/login/$', views.login, name='main_page'),
+    url(r'^blog/posts/$', views.post_list, name='post_list')
+   # url(r'^post/(?P<pk>\d+)/$',views.post_detail,name='post_detail'),
+    #url(r'^post/new/$',views.post_new,name='post_new'),
+   #rl(r'^post/(?P<pk>\d+)/$',views.post_edit,name='post_edit')
 ]
 
