@@ -1,0 +1,109 @@
+{% extends 'blog/base.html' %}
+
+{% block head %}
+     <div class="menu">
+         <ul class="options">
+
+             {% if  user.is_authenticated%}
+                <li class="option Log_out">Log Out</li>
+                <li class="option blogpage">Enter your blog</li>
+             {% else %}
+                <li class="option enter">Log in/ Sign Up</li>
+             {% endif %}
+         </ul>
+     </div>
+    <div class="profile">
+        <img class="profileimage" src="../../MyBlog/static/img/profile.jpg" height="128" width="128">
+    </div>
+{% endblock %}
+
+
+
+{% block body %}
+<div class="wrapper over">
+    <ul class="tab-group">
+        <li class="tab"><a href="#signup"> Sign Up </a></li>
+        <li class="tab active" ><a href="#login">Log In</a></li>
+    </ul>
+    <div class="tab-content">
+        <section id="signup" class="hide">
+          <form class="form" action="" method="post">{% csrf_token %}
+
+              <p class="fname feedback-input">
+                   <label for="first_name">First Name:</label>
+                  {{ form.first_name }}
+              </p>
+              <p class="lname feedback-input">
+                   <label for="last_name">Last Name:</label>
+                  {{ form.username }}
+              </p>
+              <p class="number feedback-input">
+                   <label for="id_username">Username:</label>
+                  {{ form.username }}
+              </p>
+              <p class="email feedback-input">
+                  <input name="email" type="text"  placeholder="Email Address" />
+              </p>
+              <p class="pass feedback-input">
+                  <input name="pass" type="password"  placeholder="Set a Password"  />
+              </p>
+              <div class="submit">
+                  <button type="submit" class="sign button-blue">Sign Up</button>
+                  <div class="ease"></div>
+
+              </div>
+
+
+           <p class="error" ></p>
+          </form>
+        </section>
+
+        <section id="login" class="active">
+            {% if form.has_errors %}
+                <p>Your username and password didn't match. Please try again.</p>
+            {% endif %}
+            <form method="post" action="" class="form">{% csrf_token %}
+              <p class="number2 feedback-input">
+
+              </p>
+              <p class="pass2 feedback-input">
+                  <label for="id_password">Password:</label>
+                  {{ form.password }}
+              </p>
+               <div class="submit">
+                  <input type="hidden" name="next" value="/" />
+                   <input type="submit" value="login" />
+              </div>
+                <p class="error"></p>
+            </form>
+        </section>
+      </div>
+</div>
+{% endblock %}
+<!--
+ <form class="form" action="/" method="post">
+              <p >
+                  <input name="student_number" type="text" class="number feedback-input" placeholder="Student Number"  />
+              </p>
+              <p >
+                  <input name="name" type="text" class="fname feedback-input" placeholder="First Name"  />
+              </p>
+              <p >
+                  <input name="name" type="text" class="lname feedback-input" placeholder="Last Name"  />
+              </p>
+              <p >
+                  <input name="email" type="text" class="email feedback-input" placeholder="Email Address" />
+              </p>
+              <p >
+                  <input name="pass" type="password" class="pass feedback-input" placeholder="Set a Password"  />
+              </p>
+              <div class="submit">
+                  <button type="submit" class="sign button-blue">Sign Up</button>
+                  <div class="ease"></div>
+
+              </div>
+
+
+           <p class="error" ></p>
+          </form>
+-->
