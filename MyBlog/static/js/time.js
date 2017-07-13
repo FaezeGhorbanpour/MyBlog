@@ -9,31 +9,32 @@ function convertDate(input) {
     var fields = input.split(' ');
     var mon = months[fields[1]];
     var day,new_day,new_mon;
-    if (fields[2] == "") {
-        var year = fields[5];
-        var d = fields[3];
+    var year,d;
+    if (fields[2] === "") {
+        year = fields[5];
+        d = fields[3];
     }
     else{
-        var year = fields[4];
-        var d = fields[2];
+         year = fields[4];
+         d = fields[2];
     }
     var flag2 = 0;
-    if(((year)%100 == 0 && (year)%400 == 0) || ((year)%100 != 0 && (year)%4 == 0))
+    if(((year)%100 === 0 && (year)%400 === 0) || ((year)%100 !== 0 && (year)%4 === 0))
         flag2 = 1;
     var flag = 10;
-    if(((year-1)%100 == 0 && (year-1)%400 == 0) || ((year-1)%100 != 0 && (year-1)%4 == 0))
+    if(((year-1)%100 === 0 && (year-1)%400 === 0) || ((year-1)%100 !== 0 && (year-1)%4 === 0))
         flag = 11;
     if (mon <= 2) day = (mon-1) * 31 + parseInt(d);
-    else if (mon == 3) day = 31 + 28 + (flag2) +  parseInt(d);
-    else if(mon == 4 ) day = 31 * 2 + 28 + (flag2) +  parseInt(d);
-    else if (mon == 5)day = 30 + 2*31 + 28 + (flag2) +  parseInt(d);
-    else if(mon == 6)day = 3*31 + 30 +28 + (flag2) +  parseInt(d);
-    else if(mon == 7)day = 2*30+3*31+28 + (flag2) +  parseInt(d);
-    else if(mon == 8)day = 4*31 + 2*30 + 28 + (flag2) +  parseInt(d);
-    else if(mon == 9)day = 5*31 + 2*30 + 28 + (flag2) +  parseInt(d);
-    else if(mon == 10)day = 5*31 + 3*30 +28 + (flag2) +  parseInt(d);
-    else if(mon == 11)day = 6*31 + 3*30 + 28 + (flag2) +  parseInt(d);
-    else day = 6*31 +  4*30 + 28 + (flag2) +  parseInt(d);;
+    else if (mon === 3) day = 31 + 28 + (flag2) +  parseInt(d);
+    else if(mon === 4 ) day = 31 * 2 + 28 + (flag2) +  parseInt(d);
+    else if (mon === 5)day = 30 + 2*31 + 28 + (flag2) +  parseInt(d);
+    else if(mon === 6)day = 3*31 + 30 +28 + (flag2) +  parseInt(d);
+    else if(mon === 7)day = 2*30+3*31+28 + (flag2) +  parseInt(d);
+    else if(mon === 8)day = 4*31 + 2*30 + 28 + (flag2) +  parseInt(d);
+    else if(mon === 9)day = 5*31 + 2*30 + 28 + (flag2) +  parseInt(d);
+    else if(mon === 10)day = 5*31 + 3*30 +28 + (flag2) +  parseInt(d);
+    else if(mon === 11)day = 6*31 + 3*30 + 28 + (flag2) +  parseInt(d);
+    else day = 6*31 +  4*30 + 28 + (flag2) +  parseInt(d);
 
 
     var new_year;
@@ -44,7 +45,7 @@ function convertDate(input) {
         temp = flag + day;
         temp2 = Math.floor(temp / 30);
         temp3 = temp % 30;
-        if(temp3 == 0){
+        if(temp3 === 0){
             new_mon = temp2 + 9;
             new_day = 30;
         }
@@ -59,7 +60,7 @@ function convertDate(input) {
         if (temp < 186){
             temp2 = Math.floor(temp / 31);
             temp3 = temp % 31;
-            if(temp3 == 0)
+            if(temp3 === 0)
             {
                 new_mon = temp2;
                 new_day = 31;
@@ -73,7 +74,7 @@ function convertDate(input) {
              temp2 = day - 186;
              temp3 = Math.floor(temp2 / 30);
              temp4 = temp2 % 30;
-            if (temp4 == 0) {
+            if (temp4 === 0) {
                 new_mon = temp3 + 6;
                 new_day = 30;
             }

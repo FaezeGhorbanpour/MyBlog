@@ -9,8 +9,11 @@ from django.contrib.auth import login, authenticate
 
 
 
+def start_page(request):
+    return render(request, 'blog/start_page.html')
+
 def main_page(request):
-    return render(request, '../templates/blog/start_page.html')
+    return render(request, 'blog/main_page.html')
 
 
 def post_list(request):

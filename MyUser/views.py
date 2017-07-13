@@ -1,9 +1,11 @@
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.tokens import default_token_generator
 from django.db import transaction
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
+from django.middleware.csrf import get_token
 
 from .forms import ProfileForm, LoginForm
 from django.views.decorators.csrf import csrf_exempt
@@ -12,6 +14,8 @@ from django.views.decorators.csrf import csrf_exempt
 @transaction.atomic
 def register(request):
     if request.method == 'POST':
+        print ('Registering ...')
+        print (request)
         user_form = UserCreationForm(request.POST)
         profile_form = ProfileForm(request.POST)
         if user_form.is_valid() and profile_form.is_valid():
@@ -30,25 +34,23 @@ def register(request):
             'status': status,
             'message':messages
         })
-    else:
-        user_form = UserCreationForm()
-        profile_form = ProfileForm()
 
 
 @csrf_exempt
 @transaction.atomic
 def log_in(request):
+    print('Logging in ...')
     print (request.POST)
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-        print(username,password)
         user = authenticate(username=username, password=password)
         if user is not None:
             if user.is_active :
                 login(request, user)
                 status = 1
                 messages = 'ok'
+                token = default_token_generator.make_token(user)
             else:
                 status = 0
                 messages = "You're account is disabled."
@@ -57,7 +59,8 @@ def log_in(request):
             messages= "invalid login details " + username + " " + password
         return JsonResponse({
             'status': status,
-            'message':messages
+            'message':messages,
+            'token' : token
         })
 
 def get_blog_id(request):

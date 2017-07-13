@@ -1,5 +1,5 @@
 var token = sessionStorage.getItem("token");
-
+var site_address = "http://127.0.0.1:8080";
 $(".goTo").click(function (event) {
     $(".menu>ul").attr("display", "block")
 });
@@ -32,7 +32,7 @@ $(document).ready(function() {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "http://ce419.herokuapp.com/blog/post",
+            "url": site_address + "/blog/post",
             "method": "POST",
             "headers": {
                 "x-Token": token
@@ -44,7 +44,7 @@ $(document).ready(function() {
             "dataType": "json"
         };
         $.ajax(settings).done(function (response) {
-            if (response.status == "-1") {
+            if (response.status === "-1") {
                 $(".error").text(response.message);
             }
             else {
@@ -62,7 +62,7 @@ function loadPost() {
      var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "http://ce419.herokuapp.com/blog/posts?count=5&offset=0",
+        "url": site_address + "/blog/posts?count=5&offset=0",
         "method": "GET",
         "headers": {
             "x-token": token
@@ -99,12 +99,12 @@ loadPost();
     var num = 0;
     var off = offset+5;
     win.scroll(function () {
-        if ($(document).height() - win.height() == Math.floor(win.scrollTop()) && num < count && offset < 5) {
+        if ($(document).height() - win.height() === Math.floor(win.scrollTop()) && num < count && offset < 5) {
             //('.loading').show();
             var settings = {
                 "async": true,
                 "crossDomain": true,
-                "url": "http://ce419.herokuapp.com/blog/posts?count=5&offset=" + off,
+                "url": site_address + "/blog/posts?count=5&offset=" + off,
                 "method": "GET",
                 "headers": {
                     "x-token": token

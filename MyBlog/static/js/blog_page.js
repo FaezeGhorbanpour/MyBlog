@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+    var site_address = "http://127.0.0.1:8080";
     var token = sessionStorage.getItem("token");
 
     $.urlParam = function (name) {

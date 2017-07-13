@@ -10,18 +10,25 @@ class MyUser(models.Model):
     bio = models.TextField(default='',blank=True)
 
     def __str__(self):
-        if self.user.first_name is None:
-            return self.user.first_name
+        if self.user.first_name is None and self.user.last_name is None:
+            return self.user.username
         else:
             return self.user.first_name + " " + self.user.last_name
 
+    def __unicode__(self):
+        if self.user.first_name is None and self.user.last_name is None:
+            return self.user.username
+        else:
+            return self.user.first_name + " " + self.user.last_name
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
     if created:
         MyUser.objects.create(user=instance)
 
+
+""""
 @receiver(post_save, sender=User)
 def save_user_profile(sender, instance, **kwargs):
-    instance.profile.save()
-
+    instance.MyUser.save()
+"""
