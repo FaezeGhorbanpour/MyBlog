@@ -52,11 +52,11 @@ body, html {
     height: 100%;
     width: 100%;
     background-color: $third-color;
-    background-image: url("../img/view1.jpg");
+     background-image: url("../img/view1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    // opacity: 1;
+   // opacity: 1;
     text-align: center;
 
     .wrapper {
@@ -118,6 +118,7 @@ body, html {
                     @include prefix(border-radius, 5px);
                 }
 
+
                 .button-blue {
                     border: #ededed solid 4px;
                     cursor: pointer;
@@ -126,10 +127,10 @@ body, html {
                     font-size: 24px;
                     padding-top: 22px;
                     padding-bottom: 22px;
-                    @include prefix(border-radius, 7px);
+                    @include prefix(border-radius,7px) ;
                     font-weight: 700;
                 }
-                .error {
+                .error{
                     color: #ff3333;
                     font-size: smaller;
                     font-style: italic;
@@ -137,8 +138,8 @@ body, html {
 
             }
         }
-        .tab-content .hide {
-            display: none;
-        }
+        .tab-content .hide{
+                display: none;
+            }
     }
 }

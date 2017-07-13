@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    var site_address = "http://127.0.0.1:8080";
     $(".tab-group > li > a").click(function(event)
     {
         event.preventDefault();
@@ -21,7 +22,7 @@ $(document).ready(function() {
         $(".error").text("");
         var form = new FormData();
         var stid = $(".number").val();
-        form.append("student_number",stid );
+        form.append("username",stid );
         var pass = $(".pass").val();
         form.append("password",pass);
         form.append("first_name",$(".fname").val() );
@@ -30,7 +31,7 @@ $(document).ready(function() {
          var settings = {
              "async": true,
              "crossDomain": true,
-             "url": "https://ce419.herokuapp.com/auth/register",
+             "url": site_address + "/auth/register",
              "method": "POST",
              "processData": false,
              "contentType": false,
@@ -39,8 +40,9 @@ $(document).ready(function() {
              "dataType" : "json"
          };
         $.ajax(settings).done(function (response) {
+            console.log(response);
 
-             if(response.status == "-1"){
+             if(response.status === "-1"){
                     $(".error").text(response.message);
                 }
                 else{
@@ -63,12 +65,12 @@ $(document).ready(function() {
 
      function log_in (stid,pass) {
         var form = new FormData();
-        form.append("student_number", stid);
+        form.append("username", stid);
         form.append("password", pass);
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "https://ce419.herokuapp.com/auth/login",
+            "url": site_address+"/auth/login",
             "method": "POST",
             "processData": false,
             "contentType": false,
@@ -77,8 +79,8 @@ $(document).ready(function() {
             "dataType": "json"
         };
         $.ajax(settings).done(function (response) {
-
-            if (response.status == "-1") {
+            console.log(response);
+            if (response.status === "-1") {
                 $(".error").text(response.message);
             }
             else {

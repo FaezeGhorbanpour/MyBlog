@@ -1,8 +1,5 @@
-
 $(document).ready(function() {
     var token = sessionStorage.getItem("token");
-    var site_address = "http://127.0.0.1:8080";
-    var static_address = "../../static";
 
     $.urlParam = function (name) {
         var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
@@ -13,7 +10,7 @@ $(document).ready(function() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": site_address+"/blog/post?id=" + id,
+        "url": "http://ce419.herokuapp.com/blog/post?id=" + id,
         "method": "GET",
         "headers": {
             "x-token": token
@@ -22,7 +19,7 @@ $(document).ready(function() {
     };
 
     $.ajax(settings).done(function (response) {
-        var x = "<img class=\"image\" src=\""+static_address+"/img/" + ((id % 7) + 1) + ".png\" height=\"300\" width=\"200\"/>" +
+        var x = "<img class=\"image\" src=\"img/" + ((id % 7) + 1) + ".png\" height=\"300\" width=\"200\"/>" +
             "<div class=\"title_and_summary\">" +
             "<h1 class=\"titlePage\">" + response.post.title + "</h1>" +
             "<h6 class=\"time\">" + convertDate(response.post.datetime) + "</h6>" +
@@ -51,7 +48,7 @@ $(document).ready(function() {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": site_address+"/blog/comment",
+            "url": "http://ce419.herokuapp.com/blog/comment",
             "method": "POST",
             "headers": {
                 "x-Token": token
@@ -93,7 +90,7 @@ $(document).ready(function() {
             var settings = {
                 "async": true,
                 "crossDomain": true,
-                "url": site_address+"blog/comments" + t,
+                "url": "http://ce419.herokuapp.com/blog/comments" + t,
                 "method": "GET",
                 "headers": {
                     "x-token": token
@@ -124,7 +121,7 @@ $(document).ready(function() {
                     var settings = {
                         "async": true,
                         "crossDomain": true,
-                        "url": site_address+"/blog/comments" + t,
+                        "url": "http://ce419.herokuapp.com/blog/comments" + t,
                         "method": "GET",
                         "headers": {
                             "x-token": token
