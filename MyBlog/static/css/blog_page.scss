@@ -51,7 +51,6 @@ body, html {
         background: #fff;
         border-radius: 3px;
         margin: 5% auto;
-        overflow: hidden;
         position: relative;
         font-size: 14px;
         line-height: 1.45em;
@@ -62,6 +61,7 @@ body, html {
             width: 100%;
             height: auto;
             position: relative;
+            line-height: initial;
             .image {
                 width: 50%;
                 float: right;
@@ -87,6 +87,10 @@ body, html {
             height: auto;
             padding: 10px 35px;
             border-bottom: dashed $primary-color;
+            //white-space:pre;
+            //width: 85%;
+            //float: left;
+            //overflow-x: scroll;
         }
         .add_show_comment {
             position: relative;

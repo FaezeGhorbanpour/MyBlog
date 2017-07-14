@@ -12,7 +12,7 @@ $(document).ready(function() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "http://ce419.herokuapp.com/blog/post?id=" + id,
+        "url": site_address + "/blog/1/post?id=" + id,
         "method": "GET",
         "headers": {
             "x-token": token
@@ -21,14 +21,18 @@ $(document).ready(function() {
     };
 
     $.ajax(settings).done(function (response) {
-        var x = "<img class=\"image\" src=\"img/" + ((id % 7) + 1) + ".png\" height=\"300\" width=\"200\"/>" +
-            "<div class=\"title_and_summary\">" +
-            "<h1 class=\"titlePage\">" + response.post.title + "</h1>" +
-            "<h6 class=\"time\">" + convertDate(response.post.datetime) + "</h6>" +
-            "</div>";
-        var y = response.post.text;
-        $(".detail").append(x);
-        $(".info").append(y);
+        if (response.status === 0) {
+            var post = jQuery.parseJSON(response.post)[0].fields;
+            var img = post.image.split('/')[4] || 'no-image.png';
+            var x = "<img class=\"image\" src=\"static/img/post/" + img + "\" height=\"300\" width=\"200\"/>" +
+                "<div class=\"title_and_summary\">" +
+                "<h1 class=\"titlePage\">" + post.title + "</h1>" +
+                "<h6 class=\"time\">" + (post.date) + "</h6>" +
+                "</div>";
+            var y = post.text;
+            $(".detail").append(x);
+            $(".info").append(y);
+        }
     });
 
     $(".show").on("click", function (event) {
@@ -50,7 +54,7 @@ $(document).ready(function() {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "http://ce419.herokuapp.com/blog/comment",
+            "url": site_address + "/blog/1/comment/",
             "method": "POST",
             "headers": {
                 "x-Token": token
@@ -62,8 +66,8 @@ $(document).ready(function() {
             "dataType": "json"
         };
         $.ajax(settings).done(function (response) {
-            console.log(response);
-            if (response.status != "-1") {
+           // console.log(response);
+            if (response.status !== -1) {
                 $(".comments").empty();
                 loadComments();
                 $(".adding_comment_part").hide();
@@ -92,7 +96,7 @@ $(document).ready(function() {
             var settings = {
                 "async": true,
                 "crossDomain": true,
-                "url": "http://ce419.herokuapp.com/blog/comments" + t,
+                "url": site_address + "/blog/1/comments" + t,
                 "method": "GET",
                 "headers": {
                     "x-token": token
@@ -101,29 +105,38 @@ $(document).ready(function() {
             };
 
             $.ajax(settings).done(function (response) {
-                $.each(response.comments, function (index, element) {
-                    var commentString = "<div class=\"comment\">" +
-                        "<h4>Author</h4>" +
-                        "<h6>" + convertDate(element.datetime) + "</h6>" +
-                        "<p>" + element.text + " </p>" +
-                        "</div>";
-                    $('.comments').append(commentString)
-                });
+                if (response.status === 0) {
+                    //console.log(response)
+                    var comments = jQuery.parseJSON(response.comments);
+                    //console.log(comments)
+                    for (var comment_index in comments) {
+                        comment = comments[comment_index];
+                    //console.log(comment)
+                        element = comment.fields;
+                    //console.log(element)
+
+                        var commentString = "<div class=\"comment\">" +
+                            "<h4>"+Auther+"</h4>" +
+                            "<h6>" + (element.date) + "</h6>" +
+                            "<p>" + element.text + " </p>" +
+                            "</div>";
+                        $('.comments').append(commentString)
+                    };
+                }
             });
-
-
+        /*
         count -= 5;
         if(flag) {
             var win = $(window);
             var num = 0;
             var off = from + 5;
             win.scroll(function () {
-                if ($(document).height() - win.height() == Math.floor(win.scrollTop()) && num < count ) {
+                if ($(document).height() - win.height() === Math.floor(win.scrollTop()) && num < count ) {
                     //('.loading').show();
                     var settings = {
                         "async": true,
                         "crossDomain": true,
-                        "url": "http://ce419.herokuapp.com/blog/comments" + t,
+                        "url": site_address+ "/blog/1/comments" + t,
                         "method": "GET",
                         "headers": {
                             "x-token": token
@@ -135,7 +148,7 @@ $(document).ready(function() {
                         $.each(response.comments, function (index, element) {
                     var commentString = "<div class=\"comment\">" +
                         "<h4>Author</h4>" +
-                        "<h6>" + convertDate(element.datetime) + "</h6>" +
+                        "<h6>" + (element.datetime) + "</h6>" +
                         "<p>" + element.text + " </p>" +
                         "</div>";
                     $('.comments').append(commentString)
@@ -147,6 +160,6 @@ $(document).ready(function() {
             });
 
         }
-
-    };
+*/
+    }
 });

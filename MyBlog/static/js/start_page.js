@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var site_address = "http://127.0.0.1:8080";
-    //console.log(site_address);
+
     $(".tab-group > li > a").click(function(event)
     {
         event.preventDefault();
@@ -43,8 +43,6 @@ $(document).ready(function() {
              "dataType" : "json"
          };
         $.ajax(settings).done(function (response) {
-              console.log('signing ... ');
-
              if(response.status === -1){
                     $(".error").text(Object.values(response.message));
              }
@@ -82,8 +80,6 @@ $(document).ready(function() {
             "dataType": "json"
         };
         $.ajax(settings).done(function (response) {
-            console.log('login ... ' );
-              console.log(response);
             if (response.status === -1) {
                 $(".error").text(response.message);
             }
@@ -91,7 +87,6 @@ $(document).ready(function() {
                 $(".number").val("");
                 $(".pass2").val("");
                 sessionStorage.setItem("token", response.token);
-                console.log(response.token);
                 window.open("main_page.html","_top");
             }
         });

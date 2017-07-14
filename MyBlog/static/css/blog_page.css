@@ -23,7 +23,6 @@ body, html {
     background: #fff;
     border-radius: 3px;
     margin: 5% auto;
-    overflow: hidden;
     position: relative;
     font-size: 14px;
     line-height: 1.45em;
@@ -35,7 +34,8 @@ body, html {
       font-family: GlosaBoldRegular, "Raleway", Helvetica, sans-serif;
       width: 100%;
       height: auto;
-      position: relative; }
+      position: relative;
+      line-height: initial; }
       body .blog .detail .image, html .blog .detail .image {
         width: 50%;
         float: right;

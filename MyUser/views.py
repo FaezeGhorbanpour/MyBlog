@@ -13,7 +13,6 @@ from django.views.decorators.csrf import csrf_exempt
 @transaction.atomic
 def register(request):
     if request.method == 'POST':
-        print ('Registering ...')
         user_form = UserCreationForm(request.POST)
         #profile_form = ProfileForm(request.POST)
         #print(user_form.data)
@@ -42,7 +41,6 @@ def register(request):
 @csrf_exempt
 @transaction.atomic
 def log_in(request):
-    print('Logging in ...')
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')

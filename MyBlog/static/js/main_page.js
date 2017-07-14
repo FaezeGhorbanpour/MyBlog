@@ -75,31 +75,28 @@ function loadPost() {
             var posts = jQuery.parseJSON(response.posts);
             for (var post_index in posts) {
                 post = posts[post_index];
-                //console.log(post)
                 element = post.fields;
-                var img = element.image.split('/')[4] || 'img/post/no-image.png';
-                var postString = "<div class=\"blog\" id=\"" + posts.pk + "\"> \n" +
+                var img = element.image.split('/')[4] || 'no-image.png';
+                var postString = "<div class=\"blog\" id=\"" + post.pk + "\"> \n" +
                     "<img class=\"pic\" src=\"static/img/post/" + img + "\"/>\n" +
                     "<h1>" + element.title + "</h1>\n" +
                     "<h6>" + (element.date) + "</h6>\n" +
-                    "<p class=\"summary\">" + element.summery + "</p>\n" +
-                    "<a href=\"Page.html?id=" + posts.pk + "\">Read More</a>\n" +
+                    "<p class=\"summary\">" + element.summary + "</p>\n" +
+                    "<a href=\"blog_page.html?id=" + post.pk + "\">Read More</a>\n" +
                     "</div>";
                 $('.columns').append(postString)
             }
-            ;
         }
     });
 }
 
 function loadPosts(count,offset) {
-loadPost();
+    loadPost();
     var win = $(window);
     var num = 0;
-    var off = offset+5;
+    var off = offset + 5;
     win.scroll(function () {
         if ($(document).height() - win.height() === Math.floor(win.scrollTop()) && num < count && offset < 5) {
-            //('.loading').show();
             var settings = {
                 "async": true,
                 "crossDomain": true,
@@ -112,16 +109,22 @@ loadPost();
             };
 
             $.ajax(settings).done(function (response) {
-                $.each(response.posts, function (index, element) {
-                    var postString = "<div class=\"blog\" id=\"" + element.id + "\"> \n" +
-                        "<img class=\"pic\" src=\"img/" + ((element.id % 7) + 1 ) + ".png\"/>\n" +
-                        "<h1>" + element.title + "</h1>\n" +
-                        "<h6>" + convertDate(element.datetime) + "</h6>\n" +
-                        "<p class=\"summary\">" + element.summery + "</p>\n" +
-                        "<a href=\"Page.html?id=" + element.id + "\">Read More</a>\n" +
-                        "</div>";
-                    $('.columns').append(postString)
-                });
+                if (response.status === 0) {
+                    var posts = jQuery.parseJSON(response.posts);
+                    for (var post_index in posts) {
+                        post = posts[post_index];
+                        element = post.fields;
+                        var img = element.image.split('/')[4] || 'no-image.png';
+                        var postString = "<div class=\"blog\" id=\"" + posts.pk + "\"> \n" +
+                            "<img class=\"pic\" src=\"static/img/post/" + img + "\"/>\n" +
+                            "<h1>" + element.title + "</h1>\n" +
+                            "<h6>" + (element.date) + "</h6>\n" +
+                            "<p class=\"summary\">" + element.summary + "</p>\n" +
+                            "<a href=\"blog_page.html?id=" + posts.pk + "\">Read More</a>\n" +
+                            "</div>";
+                        $('.columns').append(postString)
+                    }
+                }
             });
             num += 5;
             off += 5;

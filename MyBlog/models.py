@@ -11,7 +11,7 @@ class Post(models.Model):
     date = models.DateTimeField(default=timezone.now,blank=True)
     blog = models.ForeignKey('Blog',on_delete=models.CASCADE, null=True)
     text = models.TextField(default='Text not written!', blank=True)
-    summery = models.TextField(default='Summary not written!')
+    summary = models.TextField(default='Summary not written!')
     image = models.ImageField(upload_to='MyBlog/static/img/post/', default='MyBlog/static/img/no-img.jpg',name='')
 
     def __str__(self):
