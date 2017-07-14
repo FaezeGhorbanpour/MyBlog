@@ -32,7 +32,7 @@ $(document).ready(function() {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": site_address + "/blog/post",
+            "url": site_address + "/blog/1/post/",
             "method": "POST",
             "headers": {
                 "x-Token": token
@@ -62,7 +62,7 @@ function loadPost() {
      var settings = {
         "async": true,
         "crossDomain": true,
-        "url": site_address + "/blog/posts?count=5&offset=0",
+        "url": site_address + "/blog/1/posts?count=5&offset=0",
         "method": "GET",
         "headers": {
             "x-token": token
@@ -71,16 +71,24 @@ function loadPost() {
     };
 
     $.ajax(settings).done(function (response) {
-        $.each(response.posts, function(index, element) {
-            var postString = "<div class=\"blog\" id=\"" +  element.id + "\"> \n" +
-                "<img class=\"pic\" src=\"img/"+ element.img +".png\"/>\n"+
-                "<h1>"+element.title +"</h1>\n" +
-                "<h6>" + convertDate(element.datetime) +"</h6>\n" +
-                "<p class=\"summary\">"+element.summery +"</p>\n" +
-                "<a href=\"Page.html?id="+element.id+"\">Read More</a>\n"+
-                "</div>";
-            $('.columns').append(postString)
-        });
+        if (response.status === 0) {
+            var posts = jQuery.parseJSON(response.posts);
+            for (var post_index in posts) {
+                post = posts[post_index];
+                //console.log(post)
+                element = post.fields;
+                var img = element.image.split('/')[4] || 'img/post/no-image.png';
+                var postString = "<div class=\"blog\" id=\"" + posts.pk + "\"> \n" +
+                    "<img class=\"pic\" src=\"static/img/post/" + img + "\"/>\n" +
+                    "<h1>" + element.title + "</h1>\n" +
+                    "<h6>" + (element.date) + "</h6>\n" +
+                    "<p class=\"summary\">" + element.summery + "</p>\n" +
+                    "<a href=\"Page.html?id=" + posts.pk + "\">Read More</a>\n" +
+                    "</div>";
+                $('.columns').append(postString)
+            }
+            ;
+        }
     });
 }
 
@@ -95,7 +103,7 @@ loadPost();
             var settings = {
                 "async": true,
                 "crossDomain": true,
-                "url": site_address + "/blog/posts?count=5&offset=" + off,
+                "url": site_address + "/blog/0/posts?count=5&offset=" + off,
                 "method": "GET",
                 "headers": {
                     "x-token": token

@@ -25,14 +25,16 @@ $(document).ready(function() {
         var stid = $(".number").val();
         form.append("username",stid );
         var pass = $(".pass").val();
-        form.append("password",pass);
+        var pass1 = $(".pass1").val();
+        form.append("password1",pass);
+        form.append("password2",pass1);
         form.append("first_name",$(".fname").val() );
         form.append("last_name",$(".lname").val());
         form.append("email",$(".email").val() );
          var settings = {
              "async": true,
              "crossDomain": true,
-             "url": site_address + "/auth/register",
+             "url": site_address + "/auth/register/",
              "method": "POST",
              "processData": false,
              "contentType": false,
@@ -41,19 +43,19 @@ $(document).ready(function() {
              "dataType" : "json"
          };
         $.ajax(settings).done(function (response) {
-            //console.log(response);
+              console.log('signing ... ');
 
-             if(response.status === "-1"){
-                    $(".error").text(response.message);
-                }
-                else{
-                   $(".number").val("");
-                   $(".pass").val("");
-                   $(".fname").val("");
-                   $(".lname").val("");
-                   $(".email").val("");
-                    log_in(stid,pass);
-                }
+             if(response.status === -1){
+                    $(".error").text(Object.values(response.message));
+             }
+             else {
+                 $(".number").val("");
+                 $(".pass").val("");
+                 $(".fname").val("");
+                 $(".lname").val("");
+                 $(".email").val("");
+                 log_in(stid, pass);
+             }
         });
     });
     $(".login").click(function (event) {
@@ -71,7 +73,7 @@ $(document).ready(function() {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": site_address+"/auth/login",
+            "url": site_address+"/auth/login/",
             "method": "POST",
             "processData": false,
             "contentType": false,
@@ -80,13 +82,14 @@ $(document).ready(function() {
             "dataType": "json"
         };
         $.ajax(settings).done(function (response) {
-            //console.log(response);
-            if (response.status === "-1") {
+            console.log('login ... ' );
+              console.log(response);
+            if (response.status === -1) {
                 $(".error").text(response.message);
             }
             else {
                 $(".number").val("");
-                $(".pass").val("");
+                $(".pass2").val("");
                 sessionStorage.setItem("token", response.token);
                 console.log(response.token);
                 window.open("main_page.html","_top");

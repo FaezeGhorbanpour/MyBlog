@@ -5,7 +5,7 @@ from .models import Post,Comment,Blog
 
 
 class BlogAdmin(admin.ModelAdmin):
-    list_display = ('id','auther',)
+    list_display = ('id','number','auther',)
 
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('auther','post','text','date')
