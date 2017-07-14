@@ -73,7 +73,7 @@ function loadPost() {
     $.ajax(settings).done(function (response) {
         $.each(response.posts, function(index, element) {
             var postString = "<div class=\"blog\" id=\"" +  element.id + "\"> \n" +
-                "<img class=\"pic\" src=\"img/"+ ((element.id % 7)+1 ) +".png\"/>\n"+
+                "<img class=\"pic\" src=\"img/"+ element.img +".png\"/>\n"+
                 "<h1>"+element.title +"</h1>\n" +
                 "<h6>" + convertDate(element.datetime) +"</h6>\n" +
                 "<p class=\"summary\">"+element.summery +"</p>\n" +
@@ -86,15 +86,6 @@ function loadPost() {
 
 function loadPosts(count,offset) {
 loadPost();
-
-
-
-
-
-
-
-
-
     var win = $(window);
     var num = 0;
     var off = offset+5;

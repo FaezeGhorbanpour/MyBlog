@@ -1,11 +1,9 @@
-from django.contrib import messages
+
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.tokens import default_token_generator
 from django.db import transaction
-from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
-from django.middleware.csrf import get_token
 
 from .forms import ProfileForm, LoginForm
 from django.views.decorators.csrf import csrf_exempt
@@ -20,11 +18,11 @@ def register(request):
         profile_form = ProfileForm(request.POST)
         if user_form.is_valid() and profile_form.is_valid():
             user = user_form.save()
-            user.refresh_from_db()  # This will load the Profile created by the Signal
+            user.refresh_from_db()
             profile_form = ProfileForm(request.POST,
-                                       instance=user.profile)  # Reload the profile form with the profile instance
-            profile_form.full_clean()  # Manually clean the form this time. It is implicitly called by "is_valid()" method
-            profile_form.save()  # Gracefully save the form
+                                       instance=user.profile)
+            profile_form.full_clean()
+            profile_form.save()
             status = 1
             messages = 'ok'
         else:

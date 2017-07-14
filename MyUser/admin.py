@@ -4,14 +4,12 @@ from django.contrib.auth.admin import UserAdmin
 from django.contrib.auth.models import User
 
 
-#class MyUserAdmin(admin.ModelAdmin):
-#    list_display = ('user.first_name', 'user.last_name', 'user.email')
-#admin.site.register(MyUser,MyUserAdmin)
 
-UserAdmin.list_display = ('username','email', 'first_name', 'last_name', 'is_active', 'date_joined', 'is_staff')
+
+UserAdmin.list_display = ('username','first_name', 'last_name', 'email', 'is_active', 'date_joined', 'is_staff')
 
 class MyUserAdmin(admin.ModelAdmin):
-    list_display = ('img','user','bio',)
+    list_display = ('user','bio','img',)
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
 admin.site.register(MyUser,MyUserAdmin)

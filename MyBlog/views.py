@@ -1,11 +1,8 @@
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
-from django.shortcuts import render,get_object_or_404, redirect
-from django.utils import timezone
-from MyUser.forms import UserForm, ProfileForm
+from django.shortcuts import render
 from .models import Post
 from django.core import serializers
-from django.contrib.auth import login, authenticate
 
 
 
@@ -15,7 +12,7 @@ def start_page(request):
 def main_page(request):
     return render(request, 'blog/main_page.html')
 
-
+@login_required
 def post_list(request):
     offset = request.GET.get('offset')
     count = request.GET.get('count')

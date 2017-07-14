@@ -13,22 +13,15 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
-from MyBlog import views as v1
-from MyUser import views as v2
-
+from MyBlog import views
 
 urlpatterns = [
+    url(r'^$', views.start_page, name='start_page'),
+    url(r'^main_page.html$', views.main_page, name='main_page'),
     url(r'^admin/', admin.site.urls),
-    url(r'^$', v1.start_page, name='start_page'),
-    url(r'^main_page.html$', v1.main_page, name='main_page'),
-    url(r'^auth/register$', v2.register, name='register'),
-    url(r'^auth/login$', v2.log_in, name='log_in'),
-    url(r'^blog/posts$', v1.post_list, name='post_list'),
-    url(r'^auth/blog_id$',v2.get_blog_id),
-    url(r'^blog/post$',v1.show_add_selected_post,name='and_or_show_post_in_blog'),
-    url(r'^blog/comments$',v1.show_comment,name='show_comment'),
-    url(r'^blog/comment$',v1.add_comment,name='add_comment'),
+    url(r'^auth/',include('MyUser.urls')),
+    url(r'^blog/',include('MyBlog.urls')),
 ]
 

@@ -88,7 +88,7 @@ $(document).ready(function() {
                 $(".number").val("");
                 $(".pass").val("");
                 sessionStorage.setItem("token", response.token);
-                console.log(response.token)
+                console.log(response.token);
                 window.open("main_page.html","_top");
             }
         });
