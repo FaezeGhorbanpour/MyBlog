@@ -116,7 +116,7 @@ $(document).ready(function() {
                     //console.log(element)
 
                         var commentString = "<div class=\"comment\">" +
-                            "<h4>"+Auther+"</h4>" +
+                            "<h4>Auther</h4>" +
                             "<h6>" + (element.date) + "</h6>" +
                             "<p>" + element.text + " </p>" +
                             "</div>";

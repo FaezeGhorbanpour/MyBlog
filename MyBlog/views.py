@@ -9,6 +9,7 @@ from MyBlog.forms import PostForm, CommentForm
 from MyUser.models import MyUser
 from MyUser.views import get_blog_id
 from .models import Post, Comment
+from django.utils.translation import get_language_info
 
 
 @login_required
@@ -17,6 +18,7 @@ def each_post(request):
 
 
 def start_page(request):
+
     return render(request, 'blog/start_page.html')
 
 
