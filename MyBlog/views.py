@@ -18,7 +18,6 @@ def each_post(request):
 
 
 def start_page(request):
-
     return render(request, 'blog/start_page.html')
 
 

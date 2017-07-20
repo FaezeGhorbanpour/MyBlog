@@ -20,7 +20,7 @@ $(document).ready(function() {
     });
     $(".sign").click(function (event) {
         event.preventDefault();
-        $(".error").text("");
+        $(".err1").text("");
         var form = new FormData();
         var stid = $(".number").val();
         form.append("username",stid );
@@ -44,7 +44,13 @@ $(document).ready(function() {
          };
         $.ajax(settings).done(function (response) {
              if(response.status === -1){
-                    $(".error").text(Object.values(response.message));
+                 keys = Object.keys(response.message);
+                 values = Object.values(response.message);
+                 string = '';
+                 for (var i = 0; i < keys.length; i++) {
+                     string += '<p>' +  keys[i] + ' : ' + values [i] + '</p>';
+                 }
+                 $(".err1").append(string)
              }
              else {
                  $(".number").val("");
@@ -81,7 +87,7 @@ $(document).ready(function() {
         };
         $.ajax(settings).done(function (response) {
             if (response.status === -1) {
-                $(".error").text(response.message);
+                $(".err2").text(response.message);
             }
             else {
                 $(".number").val("");

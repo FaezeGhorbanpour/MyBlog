@@ -6,6 +6,7 @@ from django.db import transaction
 from django.http import JsonResponse
 
 from MyBlog.models import Blog
+from MyUser.forms import UserForm
 from MyUser.models import MyUser
 from django.views.decorators.csrf import csrf_exempt
 
@@ -13,7 +14,7 @@ from django.views.decorators.csrf import csrf_exempt
 @transaction.atomic
 def register(request):
     if request.method == 'POST':
-        user_form = UserCreationForm(request.POST)
+        user_form = UserForm(request.POST)
         #profile_form = ProfileForm(request.POST)
         #print(user_form.data)
         #print(profile_form.data)
@@ -31,7 +32,7 @@ def register(request):
             messages = 'ok'
         else:
             status = -1
-            messages= user_form.error_messages
+            messages= user_form.errors
         return JsonResponse({
             'status': status,
             'message':messages

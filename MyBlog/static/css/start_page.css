@@ -104,6 +104,7 @@ body, html {
           -o-border-radius: 7px;
           font-weight: 700; }
         body .wrapper .tab-content #signup .form .error, body .wrapper .tab-content #login .form .error, html .wrapper .tab-content #signup .form .error, html .wrapper .tab-content #login .form .error {
+          text-align: left;
           color: #ff3333;
           font-size: smaller;
           font-style: italic; }

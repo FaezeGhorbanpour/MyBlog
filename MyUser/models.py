@@ -21,4 +21,3 @@ def create_user_profile(sender, instance, created, **kwargs):
     if created:
         MyUser.objects.create(user=instance)
 
-

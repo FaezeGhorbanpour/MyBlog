@@ -19,6 +19,7 @@ from MyBlog import views
 
 urlpatterns = [
     url(r'^$', views.start_page, name='start_page'),
+    url(r'^StartPage.html$', views.start_page, name='start_page'),
     url(r'^main_page.html$', views.main_page, name='main_page'),
     url(r'^blog_page.html$', views.each_post, name='each_post'),
     url(r'^admin/', admin.site.urls),
