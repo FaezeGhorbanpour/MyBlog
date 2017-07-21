@@ -29,9 +29,11 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="151" column="25" lean-forward="false" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="530">
+              <caret line="155" column="39" lean-forward="true" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+              <folding>
+                <element signature="e#309#318#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,9 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>title</find>
-      <find>info</find>
-      <find>request.</find>
       <find>author</find>
       <find>comment</find>
       <find>/comment</find>
@@ -129,6 +128,9 @@
       <find>sec</find>
       <find>base_dir</find>
       <find>staticfiles_dirs</find>
+      <find>BASE_DIR</find>
+      <find>STATIC_ROOT</find>
+      <find>project_</find>
     </findStrings>
     <replaceStrings>
       <replace>site_address</replace>
@@ -652,7 +654,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1076" extended-state="1" />
+    <frame x="952" y="0" width="976" height="1076" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27661794" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1031,9 +1033,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="151" column="25" lean-forward="false" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="530">
+          <caret line="155" column="39" lean-forward="true" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
