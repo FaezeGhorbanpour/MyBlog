@@ -13,8 +13,6 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-from macpath import normpath, join
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -141,19 +139,19 @@ USE_ETAGS = True
 USE_TZ = True
 
 SITE_ID = 1
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.10/howto/static-files/
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
-STATIC_ROOT = normpath(join(BASE_DIR, 'assets'))
-
-#STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
+# Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
-    normpath(join(BASE_DIR, 'static')),
-    normpath(join(BASE_DIR, 'upload')),
+    os.path.join(PROJECT_ROOT, 'static'),
 )
 
 CORS_ORIGIN_ALLOW_ALL = True
