@@ -2,120 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91218ac-9725-4c2c-b510-4e73fdb0e3df" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0002_auto_20170701_0035.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0003_author_blog_entry.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0004_auto_20170706_2132.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0005_auto_20170706_2152.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0006_auto_20170707_0025.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0007_remove_user_posts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0008_auto_20170707_0039.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0009_auto_20170707_0044.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0010_auto_20170707_0044.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0011_auto_20170707_0136.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0012_auto_20170707_0232.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0013_auto_20170708_0059.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0014_auto_20170709_0013.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0015_auto_20170709_0916.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0016_auto_20170709_0918.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0017_auto_20170712_1759.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0018_blog_name.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0019_auto_20170714_1905.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0020_auto_20170714_2040.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0021_auto_20170714_2150.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyBlog/migrations/0022_auto_20170714_2303.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyUser/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyUser/migrations/0002_auto_20170709_0013.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyUser/migrations/0003_auto_20170709_0916.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyUser/migrations/0004_auto_20170709_0918.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyUser/migrations/0005_auto_20170709_0920.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyUser/migrations/0006_remove_myuser_time.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/MyApp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/watcherTasks.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyApp/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyApp/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyApp/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyApp/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0002_auto_20170701_0035.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0003_author_blog_entry.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0004_auto_20170706_2132.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0005_auto_20170706_2152.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0006_auto_20170707_0025.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0007_remove_user_posts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0008_auto_20170707_0039.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0009_auto_20170707_0044.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0010_auto_20170707_0044.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0011_auto_20170707_0136.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0012_auto_20170707_0232.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0013_auto_20170708_0059.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0014_auto_20170709_0013.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0015_auto_20170709_0916.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0016_auto_20170709_0918.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0017_auto_20170712_1759.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0018_blog_name.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0019_auto_20170714_1905.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0020_auto_20170714_2040.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0021_auto_20170714_2150.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/0022_auto_20170714_2303.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/blog_page.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/blog_page.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/blog_page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/main_page.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/main_page.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/main_page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/start_page.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/start_page.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/css/start_page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/js/blog_page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/js/main_page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/js/start_page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/js/time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/static/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/templates/blog/blog_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/templates/blog/main_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/templates/blog/start_page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyBlog/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/0002_auto_20170709_0013.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/0003_auto_20170709_0916.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/0004_auto_20170709_0918.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/0005_auto_20170709_0920.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/0006_remove_myuser_time.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/static/img/no-image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/MyUser/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/Procfile.dev" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phase-3-FaezeGhorbanpour/runtime.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Procfile.dev" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/models.py" afterPath="$PROJECT_DIR$/MyBlog/models.py" />
     </list>
     <ignored path="MyApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -139,33 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="91" column="64" lean-forward="false" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="64" />
+            <state relative-caret-position="360">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyApp/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#222#231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -204,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>summary</find>
       <find>html</find>
       <find>id</find>
       <find>title</find>
@@ -234,6 +110,7 @@
       <find>corsh</find>
       <find>secret_key</find>
       <find>databases</find>
+      <find>sec</find>
     </findStrings>
     <replaceStrings>
       <replace>site_address</replace>
@@ -301,6 +178,7 @@
         <option value="$PROJECT_DIR$/MyApp/settings.py" />
         <option value="$PROJECT_DIR$/MyBlog/models.py" />
         <option value="$PROJECT_DIR$/MyBlog/migrations/0010_auto_20170707_0044.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -458,19 +336,19 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/static/img/post/featured-post-image.jpg" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyBlog\static\img\post" />
-      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyBlog\static\img" />
-      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyUser\static\img" />
-      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\myvenv\MyApp\MyBlog\static\js" />
-      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\myvenv\MyApp\MyBlog\static\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyBlog\static\img\Blog" />
       <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\static\img" />
       <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\static" />
       <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\templates" />
       <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\templates\blog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp" />
+      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyBlog\static\img\post" />
+      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyBlog\static\img" />
+      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\MyUser\static\img" />
+      <recent name="C:\Users\Lenovo\AppData\Local\Programs\Python\MyApp\myvenv\MyApp\MyBlog\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -802,7 +680,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/blog/post_page.html" />
     <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1011,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.dev">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1071,14 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyApp/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1123,10 +985,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile.dev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="91" column="64" lean-forward="false" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="64" />
+        <state relative-caret-position="360">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
