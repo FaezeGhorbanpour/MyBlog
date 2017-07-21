@@ -1,8 +1,0 @@
-*.pyc
-*~
-__pycache__
-myvenv
-db.sqlite3
-/static
-/MyBlog/static/img
-.DS_Store

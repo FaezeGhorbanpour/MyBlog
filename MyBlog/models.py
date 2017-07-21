@@ -21,7 +21,7 @@ class Post(models.Model):
 class Comment(models.Model):
     text = models.TextField()
     auther = models.ForeignKey(MyUser,on_delete=models.CASCADE, null=True)
-    post = models.ForeignKey(Post,on_delete=models.CASCADE, null=True)
+    post = models.ForeignKey('Post',on_delete=models.CASCADE, null=True)
     date = models.DateTimeField(default=timezone.now,blank=True)#.strftime('%c'))
 
     def __str__(self):
@@ -36,7 +36,7 @@ class Blog(models.Model):
     def __str__(self):
         return self.auther.user.username + ' : ' + str(self.number)
 
-@receiver(pre_save,sender = MyUser)
+@receiver(pre_save,sender = Blog)
 def setCount(sender, instance,*args, **kwargs):
     instance.number = Blog.objects.filter(auther= instance.auther).count()+1
 
