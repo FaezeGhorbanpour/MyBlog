@@ -36,7 +36,7 @@ class Blog(models.Model):
     def __str__(self):
         return self.auther.user.username + ' : ' + str(self.number)
 
-@receiver(pre_save,sender = MyUser)
+@receiver(pre_save,sender = Blog)
 def setCount(sender, instance,*args, **kwargs):
     instance.number = Blog.objects.filter(auther= instance.auther).count()+1
 

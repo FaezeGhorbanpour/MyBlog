@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from distutils.command.config import config
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -21,10 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = ')^bz4@9285_c_hz3_!&-30jveh$+xvp%7(6=q&@u)0oo5q^r$y'
-
+SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
 ALLOWED_HOSTS = []
 
 CORS_ALLOW_HEADERS = (
@@ -53,7 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'MyBlog',
     'MyUser',
-    #'corsheaders'
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -91,15 +92,10 @@ WSGI_APPLICATION = 'MyApp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Blog_DB',
-        'USER': 'postgres',
-        'PASSWORD': 'fg1234FG',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
