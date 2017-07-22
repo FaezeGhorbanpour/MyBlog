@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700);
+@import "//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+@import "//fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700";
 body header:after, body header:before {
   content: '';
   display: block;
@@ -192,7 +193,7 @@ body {
           margin: 0; }
         body .container .columns .blog a:after {
           font-family: FontAwesome, fantasy;
-          content: "\f061";
+          content: '\f061';
           margin-left: -10px;
           opacity: 0;
           vertical-align: middle; }
