@@ -1,0 +1,114 @@
+@import "http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
+@import url(https://fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700);
+*, *:before, *:after {
+  -webkit-boxsizing: bordersize;
+  -moz-boxsizing: bordersize;
+  -ms-boxsizing: bordersize;
+  -o-boxsizing: bordersize;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+a {
+  text-decoration-line: none;
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: #cccccc;
+  background-image: url("../img/view1.7e5b7854ac03.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center; }
+  body .wrapper, html .wrapper {
+    max-width: 400px;
+    width: 50%;
+    height: auto;
+    background: #fff;
+    border-radius: 3px;
+    margin: auto;
+    top: 20%;
+    bottom: 20%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px; }
+    body .wrapper .tab-group, html .wrapper .tab-group {
+      display: inline-block;
+      width: 100%;
+      height: 50px;
+      background: #eeeeee;
+      color: #999;
+      text-align: center; }
+      body .wrapper .tab-group .active, html .wrapper .tab-group .active {
+        background: #fff;
+        text-align: center;
+        color: black;
+        height: 100%;
+        -webkit-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -ms-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out; }
+      body .wrapper .tab-group li:first-child, html .wrapper .tab-group li:first-child {
+        width: 50%;
+        float: left;
+        padding: auto;
+        padding-top: 3%; }
+      body .wrapper .tab-group li:last-child, html .wrapper .tab-group li:last-child {
+        width: 50%;
+        float: right;
+        padding: auto;
+        padding-top: 3%; }
+    body .wrapper .tab-content #signup, body .wrapper .tab-content #login, html .wrapper .tab-content #signup, html .wrapper .tab-content #login {
+      -webkit-transition: all 0.35s ease-in-out;
+      -moz-transition: all 0.35s ease-in-out;
+      -ms-transition: all 0.35s ease-in-out;
+      -o-transition: all 0.35s ease-in-out; }
+      body .wrapper .tab-content #signup .form, body .wrapper .tab-content #login .form, html .wrapper .tab-content #signup .form, html .wrapper .tab-content #login .form {
+        background-color: white;
+        padding: 5px;
+        width: 100%;
+        position: relative; }
+        body .wrapper .tab-content #signup .form .feedback-input, body .wrapper .tab-content #login .form .feedback-input, html .wrapper .tab-content #signup .form .feedback-input, html .wrapper .tab-content #login .form .feedback-input {
+          color: "Dosis", arial, tahoma, verdana;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          background-color: white;
+          padding: 13px 13px 13px 54px;
+          margin-bottom: 10px;
+          border: 3px solid #cccccc;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px; }
+        body .wrapper .tab-content #signup .form .button-blue, body .wrapper .tab-content #login .form .button-blue, html .wrapper .tab-content #signup .form .button-blue, html .wrapper .tab-content #login .form .button-blue {
+          border: #ededed solid 4px;
+          cursor: pointer;
+          background-color: #aaa;
+          color: white;
+          font-size: 24px;
+          padding-top: 22px;
+          padding-bottom: 22px;
+          -webkit-border-radius: 7px;
+          -moz-border-radius: 7px;
+          -ms-border-radius: 7px;
+          -o-border-radius: 7px;
+          font-weight: 700; }
+        body .wrapper .tab-content #signup .form .error, body .wrapper .tab-content #login .form .error, html .wrapper .tab-content #signup .form .error, html .wrapper .tab-content #login .form .error {
+          text-align: left;
+          color: #ff3333;
+          font-size: smaller;
+          font-style: italic; }
+    body .wrapper .tab-content .hide, html .wrapper .tab-content .hide {
+      display: none; }
+
+/*# sourceMappingURL=start_page.css.map */
