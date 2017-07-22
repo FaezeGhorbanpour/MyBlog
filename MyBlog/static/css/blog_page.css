@@ -1,5 +1,4 @@
-@import "//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
-@import url(//fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700);
 *, *:before, *:after {
   -webkit-boxsizing: bordersize;
   -moz-boxsizing: bordersize;
