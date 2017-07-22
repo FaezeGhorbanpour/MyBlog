@@ -2,7 +2,7 @@ After changing app, for Updating site, we follow these instructions:
 
 1. git init
 1. git add --all
-2. git commit 'new update'
+2. git commit -m 'new update'
 3. heroku login
 4. git commit heroku master
 
