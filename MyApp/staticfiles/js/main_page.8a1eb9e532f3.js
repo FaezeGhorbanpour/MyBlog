@@ -1,5 +1,5 @@
 var token = sessionStorage.getItem("token");
-var site_address = "http://127.0.0.1:8080";
+var site_address = "https://dry-forest-74529.herokuapp.com/";
 $(".goTo").click(function (event) {
     $(".menu>ul").attr("display", "block")
 });

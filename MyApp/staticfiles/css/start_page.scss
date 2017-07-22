@@ -1,5 +1,5 @@
-@import "http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700";
-@import url(https://fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700);
+@import '//fonts.googleapis.com/css?family=Dosis:300,400,500,600,700';
+@import '//fonts.googleapis.com/css?family=Griffy|Open+Sans:400,700|Roboto:400,700';
 
 
 
@@ -8,8 +8,8 @@ $secondary-color: #eeeeee;
 $third-color: #cccccc;
 $forth-color:#fff;
 
-$base-font: "Dosis", arial, tahoma, verdana;
-$base-font-title: "Raleway", Helvetica, sans-serif;
+$base-font: 'Dosis', arial, tahoma, verdana, serif;
+$base-font-title: 'Raleway', Helvetica, sans-serif;
 
 $base-font-color: #222;
 
@@ -52,7 +52,7 @@ body, html {
     height: 100%;
     width: 100%;
     background-color: $third-color;
-     background-image: url("../img/view1.jpg");
+     background-image: url('../img/view1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

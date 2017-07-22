@@ -2,6 +2,363 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91218ac-9725-4c2c-b510-4e73fdb0e3df" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.31652d31b392.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.31652d31b392.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.5af66c1b1797.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.6b517d0d5813.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.6b517d0d5813.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/base.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/changelists.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/changelists.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/changelists.f6dc691f8d62.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/changelists.f6dc691f8d62.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/dashboard.7ac78187c567.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/dashboard.7ac78187c567.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/dashboard.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/fonts.494e4ec545c9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/fonts.494e4ec545c9.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/fonts.cc6140298ba7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/fonts.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.15ebfebbeb3d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.15ebfebbeb3d.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.2003a066ae02.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.2003a066ae02.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.77b3f8a70811.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/forms.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/login.a846c0e2ef65.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/login.a846c0e2ef65.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/login.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/rtl.4c867197b256.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/rtl.4c867197b256.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/rtl.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/widgets.5e372b41c483.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/widgets.5e372b41c483.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/widgets.a7251c097987.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/css/widgets.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/LICENSE.d273d63619c9.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/LICENSE.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/README.2c3d0bcdede2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/Roboto-Bold-webfont.2ad99072841e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/Roboto-Light-webfont.b446c2399bb6.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/Roboto-Regular-webfont.ec39515ae8c6.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/LICENSE.2c54f4e1ca1c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/LICENSE.2c54f4e1ca1c.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/LICENSE.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/README.837277fa1908.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/README.837277fa1908.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/README.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/calendar-icons.39b290681a8b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/calendar-icons.39b290681a8b.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/calendar-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/calendar-icons.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_off.7a23bf31ef8a.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_off.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_off.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_on.0047eba25b67.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_on.0047eba25b67.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_on.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/gis/move_vertex_on.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-addlink.d519b3bab011.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-addlink.d519b3bab011.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-addlink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-addlink.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-alert.034cc7d8a67f.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-alert.034cc7d8a67f.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-alert.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-alert.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-calendar.ac7aea671bea.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-calendar.ac7aea671bea.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-calendar.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-changelink.18d2fd706348.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-changelink.18d2fd706348.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-changelink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-changelink.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-clock.e1d4dfac3f2b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-clock.e1d4dfac3f2b.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-clock.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-deletelink.564ef9dc3854.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-deletelink.564ef9dc3854.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-deletelink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-deletelink.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-no.439e821418cd.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-no.439e821418cd.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-no.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-no.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown-alt.81536e128bb6.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown-alt.81536e128bb6.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown-alt.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown.a18cb4398978.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown.a18cb4398978.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-unknown.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-yes.d2f9f035226a.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-yes.d2f9f035226a.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-yes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/icon-yes.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/inline-delete.fec1b761f254.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/inline-delete.fec1b761f254.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/inline-delete.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/inline-delete.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/search.7cf54ff789c6.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/search.7cf54ff789c6.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/search.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/selector-icons.b4555096cea2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/selector-icons.b4555096cea2.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/selector-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/selector-icons.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/sorting-icons.3a097b59f104.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/sorting-icons.3a097b59f104.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/sorting-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/sorting-icons.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-add.e59d620a9742.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-add.e59d620a9742.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-add.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-arrowright.bbfb788a849e.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-arrowright.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/img/tooltag-arrowright.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectBox.b49f008d186b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectBox.b49f008d186b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectBox.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectFilter2.17009b6d4428.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectFilter2.17009b6d4428.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectFilter2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/SelectFilter2.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.32861b6cbdf9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.32861b6cbdf9.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.min.f51f04edab28.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.min.f51f04edab28.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/actions.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/DateTimeShortcuts.1536fb6bea1d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/DateTimeShortcuts.1536fb6bea1d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/DateTimeShortcuts.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/RelatedObjectLookups.d2bdb1018963.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/RelatedObjectLookups.d2bdb1018963.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/admin/RelatedObjectLookups.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/calendar.9ac94d055fbd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/calendar.9ac94d055fbd.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/calendar.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/cancel.1d69cba4b4bf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/cancel.1d69cba4b4bf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/cancel.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/change_form.9e85003a1a38.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/change_form.9e85003a1a38.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/change_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/change_form.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.17d715df2104.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.17d715df2104.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.min.dc930adb2821.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.min.dc930adb2821.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/collapse.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/core.fd861d43f0f5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/core.fd861d43f0f5.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/core.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.eda404ee376d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.eda404ee376d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.min.d75b9ed03975.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.min.d75b9ed03975.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/inlines.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/jquery.init.95b62fa19378.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/jquery.init.95b62fa19378.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/jquery.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/jquery.init.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/popup_response.6ce3197f8fc8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/popup_response.6ce3197f8fc8.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/popup_response.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/popup_response.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.ff9208865444.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.ff9208865444.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.min.f4057ebb9b62.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.min.f4057ebb9b62.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate_init.0d3b53c37074.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate_init.0d3b53c37074.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate_init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/prepopulate_init.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/timeparse.51258861a46a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/timeparse.51258861a46a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/timeparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/timeparse.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/urlify.411bc3bb651c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/urlify.411bc3bb651c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/urlify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/urlify.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.a158210a2737.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.aacc43d6f308.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.aacc43d6f308.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.min.33cabfa15c10.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/jquery/jquery.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.d64cecf4f157.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.1865b1cf5085.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.min.c95393b8ca4d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/admin/js/vendor/xregexp/xregexp.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.6f8c15b5f571.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.6f8c15b5f571.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.6f8c15b5f571.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.6f8c15b5f571.scss.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.7589a95b4ebd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.7589a95b4ebd.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.css.29f68cd085a0.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.css.29f68cd085a0.map.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.css.map.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.scss.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main.f26f0f46a3a7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main.f26f0f46a3a7.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.2e16f5df5381.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.2e16f5df5381.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.2e16f5df5381.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.2e16f5df5381.scss.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.6dbd42810d51.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.6dbd42810d51.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.css.5dd306a9b804.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.css.5dd306a9b804.map.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.css.map.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/main_page.scss.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/normalize.c135f16273df.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/normalize.c135f16273df.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/normalize.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.49e2851f102f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.49e2851f102f.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.afa233c6fce8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.afa233c6fce8.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.afa233c6fce8.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.afa233c6fce8.scss.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.css.d362dc5d6efa.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.css.d362dc5d6efa.map.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.css.map.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.db5ada5a2ea7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/css/start_page.scss.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/Blog/20-135.c15db75841b2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/Blog/20-135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/Blog/3dlat.com_14063873207.e3fa26689d93.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/Blog/3dlat.com_14063873207.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/Blog/no-image.b1ee9db8f2a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/Blog/no-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/giphy.8a7630caadfb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/giphy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/no-image.b1ee9db8f2a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/no-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/7.30d6c4570994.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/extend.766cc5a9d970.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/extend.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image.eb4effdc451c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image1.766cc5a9d970.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image1_AiaLYJU.766cc5a9d970.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image1_AiaLYJU.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image_Wic5jVO.eb4effdc451c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/featured-post-image_Wic5jVO.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/no-image.b1ee9db8f2a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/no-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/profile.fb43ab50b9b1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/signal.eb4effdc451c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/post/signal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/profile.26d40670d40b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/vertical.a0a5de1d634b.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/vertical.a0a5de1d634b.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/vertical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/vertical.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/view1.7e5b7854ac03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/img/view1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/blog_page.109148fda6a4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/blog_page.109148fda6a4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/blog_page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/blog_page.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/main_page.d7481fb02526.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/main_page.d7481fb02526.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/main_page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/main_page.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/plugins.074c4c08f073.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/plugins.074c4c08f073.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/plugins.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/start_page.e13d16a9101b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/start_page.e13d16a9101b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/start_page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/start_page.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/time.6cf09c0787a1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/time.6cf09c0787a1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/time.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/vendor/modernizr-2.8.3.min.da941a6e1e1d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/vendor/modernizr-2.8.3.min.da941a6e1e1d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/js/vendor/modernizr-2.8.3.min.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApp/staticfiles/staticfiles.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css" afterPath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css.map" afterPath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" afterPath="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" />
@@ -44,11 +401,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_page.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start_page.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBlog/static/css/start_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,48 +424,18 @@
       <file leaf-file-name="main_page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog_page.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog_page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/main_page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/start_page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="time.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/time.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -244,9 +571,9 @@
         <option value="$PROJECT_DIR$/MyBlog/static/js/main_page.js" />
         <option value="$PROJECT_DIR$/MyBlog/static/js/start_page.js" />
         <option value="$PROJECT_DIR$/MyApp/settings.py" />
-        <option value="$PROJECT_DIR$/MyBlog/static/css/start_page.scss" />
-        <option value="$PROJECT_DIR$/MyBlog/static/css/main_page.scss" />
         <option value="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" />
+        <option value="$PROJECT_DIR$/MyBlog/static/css/main_page.scss" />
+        <option value="$PROJECT_DIR$/MyBlog/static/css/start_page.scss" />
       </list>
     </option>
   </component>
@@ -324,83 +651,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyUser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyUser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="MyBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -774,7 +1025,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3410771" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34027055" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -815,16 +1066,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyUser/tokens.py" />
-    <entry file="file://$PROJECT_DIR$/MyBlog/urls.html" />
-    <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/middleware/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/post/featured-post-image.jpg" />
     <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1158,26 +1399,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/start_page.scss">
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.scss">
+    <entry file="file://$PROJECT_DIR$/MyApp/staticfiles/staticfiles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/staticfiles/css/blog_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/staticfiles/css/main_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/start_page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
