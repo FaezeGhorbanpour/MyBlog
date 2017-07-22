@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91218ac-9725-4c2c-b510-4e73fdb0e3df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html" afterPath="$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/templates/blog/main_page.html" afterPath="$PROJECT_DIR$/MyBlog/templates/blog/main_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/templates/blog/start_page.html" afterPath="$PROJECT_DIR$/MyBlog/templates/blog/start_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css" afterPath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css.map" afterPath="$PROJECT_DIR$/MyBlog/static/css/blog_page.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" afterPath="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/main_page.css" afterPath="$PROJECT_DIR$/MyBlog/static/css/main_page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/main_page.css.map" afterPath="$PROJECT_DIR$/MyBlog/static/css/main_page.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/main_page.scss" afterPath="$PROJECT_DIR$/MyBlog/static/css/main_page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/start_page.css" afterPath="$PROJECT_DIR$/MyBlog/static/css/start_page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/start_page.css.map" afterPath="$PROJECT_DIR$/MyBlog/static/css/start_page.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/css/start_page.scss" afterPath="$PROJECT_DIR$/MyBlog/static/css/start_page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/js/blog_page.js" afterPath="$PROJECT_DIR$/MyBlog/static/js/blog_page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/js/main_page.js" afterPath="$PROJECT_DIR$/MyBlog/static/js/main_page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog/static/js/start_page.js" afterPath="$PROJECT_DIR$/MyBlog/static/js/start_page.js" />
     </list>
     <ignored path="MyApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,57 +38,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyApp/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="start_page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyBlog/static/css/start_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="21">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_page.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main_page.scss">
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog_page.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.scss">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_page.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/start_page.html">
+      <file leaf-file-name="blog_page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/blog_page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="42">
+              <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog_page.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/main_page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/start_page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/time.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/js/plugins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -88,41 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/main_page.html">
+      <file leaf-file-name="main_page.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="106" lean-forward="false" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBlog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -213,14 +223,11 @@
         <option value="$PROJECT_DIR$/MyBlog/forms.py" />
         <option value="$PROJECT_DIR$/MyBlog/admin.py" />
         <option value="$PROJECT_DIR$/MyBlog/urls.py" />
-        <option value="$PROJECT_DIR$/MyBlog/static/js/blog_page.js" />
         <option value="$PROJECT_DIR$/MyBlog/views.py" />
         <option value="$PROJECT_DIR$/requirement.txt" />
         <option value="$PROJECT_DIR$/MyUser/forms.py" />
         <option value="$PROJECT_DIR$/MyUser/views.py" />
-        <option value="$PROJECT_DIR$/MyBlog/static/js/main_page.js" />
         <option value="$PROJECT_DIR$/MyApp/urls.py" />
-        <option value="$PROJECT_DIR$/MyBlog/static/js/start_page.js" />
         <option value="$PROJECT_DIR$/Procfile.dev" />
         <option value="$PROJECT_DIR$/requirenments.txt" />
         <option value="$PROJECT_DIR$/MyApp/wsgi.py" />
@@ -233,12 +240,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/MyApp/settings.py" />
-        <option value="$PROJECT_DIR$/MyBlog/static/css/start_page.scss" />
-        <option value="$PROJECT_DIR$/MyBlog/static/css/main_page.scss" />
-        <option value="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" />
         <option value="$PROJECT_DIR$/MyBlog/templates/blog/main_page.html" />
         <option value="$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html" />
         <option value="$PROJECT_DIR$/MyBlog/templates/blog/start_page.html" />
+        <option value="$PROJECT_DIR$/MyBlog/static/css/blog_page.scss" />
+        <option value="$PROJECT_DIR$/MyBlog/static/css/main_page.scss" />
+        <option value="$PROJECT_DIR$/MyBlog/static/css/start_page.scss" />
+        <option value="$PROJECT_DIR$/MyBlog/static/js/blog_page.js" />
+        <option value="$PROJECT_DIR$/MyBlog/static/js/main_page.js" />
+        <option value="$PROJECT_DIR$/MyBlog/static/js/start_page.js" />
       </list>
     </option>
   </component>
@@ -371,6 +381,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -739,7 +771,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13802083" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -785,34 +817,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myvenv/pyvenv.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyApp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/time.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyUser/tokens.py" />
     <entry file="file://$PROJECT_DIR$/MyBlog/urls.html" />
     <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/middleware/common.py">
@@ -841,13 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/blog_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="119" column="26" lean-forward="false" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -941,22 +938,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/main_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirenments.txt" />
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/start_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyUser/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1098,30 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/start_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/main_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1130,15 +1088,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html">
+    <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/start_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="63">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/start_page.html">
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/blog_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/start_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/blog_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/main_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/start_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/static/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBlog/templates/blog/blog_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="18" />
