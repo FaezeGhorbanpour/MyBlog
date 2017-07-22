@@ -25,7 +25,7 @@ SECRET_KEY = ')^bz4@9285_c_hz3_!&-30jveh$+xvp%7(6=q&@u)0oo5q^r$y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [".herokuapp.com"]
+ALLOWED_HOSTS = ['.herokuapp.com','*']
 
 CORS_ALLOW_HEADERS = (
     'x-requested-with',
@@ -71,7 +71,7 @@ MIDDLEWARE = [
 
 OPBEAT = {
     'ORGANIZATION_ID': '271876a132754480b59a77cabfc58054',
-    'APP_ID': 'b75b2f51ae',
+    'APP_ID': 'a39e96eee0',
     'SECRET_TOKEN': 'ce5694539add7d2a4c605361c7c45e0649988a24',
 }
 
