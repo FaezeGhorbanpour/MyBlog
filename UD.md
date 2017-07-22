@@ -7,4 +7,5 @@ After changing app, for Updating site, we follow these instructions:
 4. git commit heroku master
 
 If models change, we also run this:
+
 5. heroku run python manage.py migrate
