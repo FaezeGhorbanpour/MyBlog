@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -53,10 +53,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'MyBlog',
     'MyUser',
-    #'corsheaders'
+    'corsheaders',
+    'opbeat.contrib.django',
 ]
 
 MIDDLEWARE = [
+    'opbeat.contrib.django.middleware.OpbeatAPMMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
@@ -66,6 +68,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+OPBEAT = {
+    'ORGANIZATION_ID': '271876a132754480b59a77cabfc58054',
+    'APP_ID': 'b75b2f51ae',
+    'SECRET_TOKEN': 'ce5694539add7d2a4c605361c7c45e0649988a24',
+}
+
 
 ROOT_URLCONF = 'MyApp.urls'
 
