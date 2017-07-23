@@ -4,7 +4,7 @@ After changing app, for Updating site, we follow these instructions:
 2. git add --all
 3. git commit -m 'new update'
 4. heroku login
-5. git commit heroku master
+5. git push heroku master
 
 If models change, we also run this:
 
