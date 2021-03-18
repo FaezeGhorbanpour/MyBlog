@@ -4,7 +4,7 @@ django-cors-middleware==1.3.1
 djangotoolbox==1.8.0
 olefile==0.44
 opbeat==3.5.2
-Pillow==4.2.0
+Pillow==8.1.1
 psycopg2==2.7.1
 pytz==2017.2
 urllib3==1.22
