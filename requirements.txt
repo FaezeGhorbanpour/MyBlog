@@ -1,12 +1,12 @@
 certifi==2017.4.17
-Django==1.11.3
+Django
 django-cors-middleware==1.3.1
 djangotoolbox==1.8.0
 olefile==0.44
 opbeat==3.5.2
-Pillow==4.2.0
+Pillow
 psycopg2==2.7.1
 pytz==2017.2
-urllib3==1.22
+urllib3
 whitenoise==3.3.0
 gunicorn==19.6.0
